@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0D68202B10F916004E92A3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D681F2B10F916004E92A3 /* CardView.swift */; };
+		0C0D68232B10FCA7004E92A3 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D68222B10FCA7004E92A3 /* CustomBackgroundView.swift */; };
+		0C0D68262B10FED8004E92A3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D68252B10FED8004E92A3 /* ColorExtension.swift */; };
+		0C0D68282B11046B004E92A3 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D68272B11046B004E92A3 /* CustomButtonView.swift */; };
 		0CD9E4212B0E640900BAF13D /* HIkeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9E4202B0E640900BAF13D /* HIkeApp.swift */; };
 		0CD9E4232B0E640900BAF13D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9E4222B0E640900BAF13D /* ContentView.swift */; };
 		0CD9E4252B0E640A00BAF13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD9E4242B0E640A00BAF13D /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C0D681F2B10F916004E92A3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0C0D68222B10FCA7004E92A3 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		0C0D68252B10FED8004E92A3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		0C0D68272B11046B004E92A3 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		0CD9E41D2B0E640900BAF13D /* HIke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD9E4202B0E640900BAF13D /* HIkeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIkeApp.swift; sourceTree = "<group>"; };
 		0CD9E4222B0E640900BAF13D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C0D68212B10FC81004E92A3 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0C0D681F2B10F916004E92A3 /* CardView.swift */,
+				0C0D68222B10FCA7004E92A3 /* CustomBackgroundView.swift */,
+				0C0D68272B11046B004E92A3 /* CustomButtonView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		0C0D68242B10FEC9004E92A3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0C0D68252B10FED8004E92A3 /* ColorExtension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		0CD9E4142B0E640900BAF13D = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +77,10 @@
 		0CD9E41F2B0E640900BAF13D /* HIke */ = {
 			isa = PBXGroup;
 			children = (
+				0C0D68242B10FEC9004E92A3 /* Utility */,
 				0CD9E4202B0E640900BAF13D /* HIkeApp.swift */,
 				0CD9E4222B0E640900BAF13D /* ContentView.swift */,
+				0C0D68212B10FC81004E92A3 /* Component */,
 				0CD9E4242B0E640A00BAF13D /* Assets.xcassets */,
 				0CD9E4262B0E640A00BAF13D /* Preview Content */,
 			);
@@ -138,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CD9E4232B0E640900BAF13D /* ContentView.swift in Sources */,
+				0C0D68202B10F916004E92A3 /* CardView.swift in Sources */,
 				0CD9E4212B0E640900BAF13D /* HIkeApp.swift in Sources */,
+				0C0D68282B11046B004E92A3 /* CustomButtonView.swift in Sources */,
+				0C0D68232B10FCA7004E92A3 /* CustomBackgroundView.swift in Sources */,
+				0C0D68262B10FED8004E92A3 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
